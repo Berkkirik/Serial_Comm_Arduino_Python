@@ -64,3 +64,38 @@ serialPort = serial.Serial(
 
 
 ```
+
+
+# While loop for append the list elements to tuppled data ( try-except block to add element into tupple)
+
+```
+while True:
+    if serialPort.in_waiting > 0:
+        serialString = serialPort.readline()
+
+        data = serialString.decode("utf8", errors="replace")
+
+        splitted_data = data.split(":")
+
+        try:
+            splitted_data[0] = int(splitted_data[0])
+            splitted_data[1] = int(splitted_data[1])
+        except:
+            continue
+
+        replaced_data = data.replace("\r", "")
+        replaced_data = replaced_data.replace("\n", "")
+        replaced_data = replaced_data.replace("\t", "")
+        replaced_dataa = replaced_data.replace(":", "")
+        # x = int(str(replaced_dataa[:] ))
+        # y=int(str(replaced_data[:]))
+        # print(type(y))
+        # print(type(x))
+        current_time = time.time()
+        elapsed_time = int(current_time - start_time)
+
+
+        tupled_data = (splitted_data[0],splitted_data[1])
+        print(tupled_data)
+
+```
