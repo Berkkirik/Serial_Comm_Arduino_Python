@@ -42,3 +42,14 @@ ys = []
 ```
 date = str(datetime.datetime.now())
 ```
+
+
+# For replace unnecessary elements which came from Serial Port 
+## İn my project serial port device is arduino
+
+
+```
+date = date.replace(" ", ",")
+date = date.replace(":", ".")
+
+```
