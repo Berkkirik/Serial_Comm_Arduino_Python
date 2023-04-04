@@ -18,9 +18,9 @@ My Contact Mail :berkkirik.1999@gmail.com       or        berk.kirik@outlook.com
 # İMPORT SECTİON
 
 
-import numpy as np (for tupple)
-import serial(for communication)
-import time (for filename)
-import datetime ( for filename)
+import numpy as np 
+import serial
+import time 
+import datetime 
 
 
