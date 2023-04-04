@@ -42,10 +42,7 @@ while True:
         replaced_data = replaced_data.replace("\n", "")
         replaced_data = replaced_data.replace("\t", "")
         replaced_dataa = replaced_data.replace(":", "")
-        # x = int(str(replaced_dataa[:] ))
-        # y=int(str(replaced_data[:]))
-        # print(type(y))
-        # print(type(x))
+    
         current_time = time.time()
         elapsed_time = int(current_time - start_time)
 
