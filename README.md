@@ -16,8 +16,7 @@ My Contact Mail :berkkirik.1999@gmail.com       or        berk.kirik@outlook.com
 
 
 # İMPORT SECTİON
-
-
+##
 import numpy as np 
 import serial
 import time 
