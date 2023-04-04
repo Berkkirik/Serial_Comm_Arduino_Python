@@ -53,3 +53,12 @@ date = date.replace(" ", ",")
 date = date.replace(":", ".")
 
 ```
+
+
+# For Serial Port Communucation 
+## Check your Comport which you connect Mıcroprocessor to your device (Which Comport is active )
+
+```
+serialPort = serial.Serial(
+    port="COM3", baudrate=9600, bytesize=8, timeout=2, stopbits=serial.STOPBITS_ONE)
+    ```
