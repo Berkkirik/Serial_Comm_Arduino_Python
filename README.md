@@ -17,7 +17,6 @@ My Contact Mail :berkkirik.1999@gmail.com       or        berk.kirik@outlook.com
 
 # İMPORT SECTİON
 ## For more inf. about libraries (https://pypi.org/)
-
 """python
 import numpy as np 
 import serial
