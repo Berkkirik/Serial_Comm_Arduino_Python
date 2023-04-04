@@ -25,3 +25,18 @@ import serial
 import time 
 import datetime
 ```
+
+
+# Create x_serial and y_serial lists 
+## x_serial represented as xs , y_serial represented as ys
+
+
+
+```
+xs = []
+ys = []
+```
+
+
+# For filename , get info local time and write on your file as addiction of filename
+date = str(datetime.datetime.now())
