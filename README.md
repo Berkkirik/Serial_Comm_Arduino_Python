@@ -96,3 +96,16 @@ while True:
         print(tupled_data)
 
 ```
+# except for identify the error 
+``` except:
+         print("an error occured")
+         traceback.print_exc()
+         serialPort.close()
+         break;
+``` 
+
+# Using system , the exit message Print Section
+``` 
+
+sys.exit("Seri Porttan veri akışı durdu/durdulurdu !")
+```
