@@ -107,5 +107,5 @@ while True:
 # Using system , the exit message Print Section
 ``` 
 
-sys.exit("Seri Porttan veri akışı durdu/durdulurdu !")
+sys.exit("Write your message !")
 ```
